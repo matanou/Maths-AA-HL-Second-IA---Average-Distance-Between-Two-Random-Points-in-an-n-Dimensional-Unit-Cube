@@ -65,7 +65,8 @@ For \(n = 1\) with 200,000 samples:
 
 The distribution of sampled distances is shown below:
 
-![Monte Carlo verification for n=1](images/MC_n1_plot.png)
+<img width="1029" height="368" alt="monte_carlo_plot_1" src="https://github.com/user-attachments/assets/a2c3e543-70ae-46d9-bdff-ad36fc166151" />
+
 
 ---
 
