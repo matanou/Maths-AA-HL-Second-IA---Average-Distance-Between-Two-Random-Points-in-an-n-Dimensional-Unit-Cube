@@ -1,14 +1,14 @@
 # Maths-AA-HL-Second-IA---Average-Distance-Between-Two-Random-Points-in-an-n-Dimensional-Unit-Cube
 Analytical and computational investigation of the expected distance between two random points in an n-dimensional unit cube.
 
-# 📘 Maths AA HL Second IA — Average Distance Between Two Random Points in an *n*-Dimensional Unit Cube
+# Maths AA HL Second IA — Average Distance Between Two Random Points in an *n*-Dimensional Unit Cube
 
 This repository contains all the analytical derivations, LaTeX source files, Python code, and numerical verifications used in my **IB Mathematics: Analysis and Approaches HL Internal Assessment (IA)**.  
 The investigation explores how the **expected Euclidean distance** between two points chosen uniformly at random within an *n*-dimensional unit hypercube \([0,1]^n\) behaves as the number of dimensions increases.
 
 ---
 
-## 🧮 Project Overview
+## Project Overview
 
 The goal of this IA is to determine
 
