@@ -24,7 +24,7 @@ The study begins with low-dimensional cases that can be solved analytically:
 
 - **Case $n = 2$:**
   Using integration in polar coordinates and probability density functions,  
-  $\mathbb{E}[D_2] = \frac{\sqrt{2} + 2 + 5\ln(1+\sqrt{2})}{15} \approx 0.5214.$
+  $\mathbb{E}[D_2] = \frac{\sqrt{2} + 2 + 5\times\ln(1+\sqrt{2})}{15} \approx 0.5214.$
 
 These exact results serve as verification benchmarks for the computational model.  
 For higher dimensions, a numerical Monte Carlo simulation is employed.
