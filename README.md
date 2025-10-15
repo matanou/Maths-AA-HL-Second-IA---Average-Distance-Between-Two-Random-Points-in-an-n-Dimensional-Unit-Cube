@@ -49,9 +49,7 @@ $\mathbb{E}[D_n]$ through large-scale random sampling.
 ### Example Output
 For $n = 1$ with 200,000 samples:
 
-\[
-\text{Monte Carlo mean} = 0.33355 \quad\text{vs.}\quad \text{Analytical mean} = \tfrac{1}{3}.
-\]
+$\text{Monte Carlo mean} = 0.33355 \quad\text{vs.}\quad \text{Analytical mean} = \tfrac{1}{3}.$
 
 The distribution of sampled distances is shown below:
 
@@ -64,21 +62,19 @@ The distribution of sampled distances is shown below:
 
 To derive the analytical expectations, the investigation uses:
 - **Geometric probability** in $[0,1]^2$ to find the density function  
-  \[
-  f(x) = 2(1-x), \quad 0 \le x \le 1.
-  \]
+  $f(x) = 2(1-x), \quad 0 \le x \le 1.$
+  
 - **Transformation to polar coordinates**  
-  \[
-  x = r\cos\theta, \quad y = r\sin\theta, \quad dx\,dy = r\,dr\,d\theta.
-  \]
+  $x = r\cos\theta, \quad y = r\sin\theta, \quad dx\,dy = r\,dr\,d\theta.$
+  
 - **Piecewise limits** for the unit square boundary:  
-  \[
+  $$
   r_{\max}(\theta) =
   \begin{cases}
   1 / \cos\theta, & 0 \le \theta \le \pi/4, \\
   1 / \sin\theta, & \pi/4 \le \theta \le \pi/2.
   \end{cases}
-  \]
+  $$
 - Evaluated integrals:
   \[
   I_1 = \frac{1}{3}\!\left(\sqrt{2} + \ln(1+\sqrt{2})\right), \quad
