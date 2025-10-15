@@ -12,9 +12,7 @@ The investigation explores how the **expected Euclidean distance** between two p
 
 The goal of this IA is to determine
 
-$
-\mathbb{E}[D_n] = \text{Expected distance between two random points in } [0,1]^n
-$
+$\mathbb{E}[D_n]$ = Expected distance between two random points in $[0,1]^n$
 
 where the Euclidean distance between two points  
 \( A = (a_1, a_2, \ldots, a_n) \) and \( B = (b_1, b_2, \ldots, b_n) \) is given by
