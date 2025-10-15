@@ -4,7 +4,7 @@ Analytical and computational investigation of the expected distance between two 
 # Maths AA HL Second IA — Average Distance Between Two Random Points in an *n*-Dimensional Unit Cube
 
 This repository contains all the analytical derivations, LaTeX source files, Python code, and numerical verifications used in my **IB Mathematics: Analysis and Approaches HL Internal Assessment (IA)**.  
-The investigation explores how the **expected Euclidean distance** between two points chosen uniformly at random within an *n*-dimensional unit hypercube \([0,1]^n\) behaves as the number of dimensions increases.
+The investigation explores how the **expected Euclidean distance** between two points chosen uniformly at random within an *n*-dimensional unit hypercube $[0,1]^n$ behaves as the number of dimensions increases.
 
 ---
 
