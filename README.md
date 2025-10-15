@@ -15,7 +15,7 @@ The goal of this IA is to determine
 $\mathbb{E}[D_n]$ = Expected distance between two random points in $[0,1]^n$
 
 where the Euclidean distance between two points  
-$A = (a_1, a_2, \ldots, a_n)$ and $B = (b_1, b_2, \ldots, b_n)$ is given by
+$A = (a_1, a_2, ..., a_n)$ and $B = (b_1, b_2, ..., b_n)$ is given by
 
 
 $D_n = \sqrt{(a_1 - b_1)^2 + (a_2 - b_2)^2 + \cdots + (a_n - b_n)^2}$.
