@@ -107,13 +107,9 @@ To derive the analytical expectations, the investigation uses:
 ```
 Maths-AA-HL-Second-IA/
 ├── README.md                # Project overview and methodology
-├── Maths_IA_Final.tex       # Full LaTeX source code of the IA
 ├── Maths_IA_Final.pdf       # Compiled final IA document
 ├── mc_distance_ui.py        # Monte Carlo simulation app (Tkinter GUI)
-├── data/                    # Exported simulation results (CSV files)
-├── images/                  # Plots, figures, and verification screenshots
-├── Appendix/                # Code excerpts and derivation details
-└── requirements.txt         # Python dependencies (NumPy, Matplotlib, Tkinter, etc.)
+└── images/                  # Plots, figures, and verification screenshots
 ```
 
 
@@ -146,8 +142,4 @@ Maths-AA-HL-Second-IA/
 ## License
 This project is shared under the **MIT License** for educational and non-commercial use.  
 Feel free to fork, reference, or adapt the simulation for further mathematical exploration.
-
----
-
-> *“Mathematics reveals the hidden geometry of randomness — one integral and one simulation at a time.”*
 
