@@ -68,7 +68,7 @@ To derive the analytical expectations, the investigation uses:
   $x = r\cos\theta, \quad y = r\sin\theta, \quad dx\,dy = r\,dr\,d\theta.$
   
 - **Piecewise limits** for the unit square boundary:**  
-  $r_{\max}(\theta)=\sec\theta$ for $0\le\theta\le\\frac{pi}{4}$, and $r_{\max}(\theta)=\csc\theta$ for $\pi/4\le\theta\le\pi/2$.
+  $r_{\max}(\theta)=\sec\theta$ for $0\le\theta\le\frac{\pi}{4}$, and $r_{\max}(\theta)=\csc\theta$ for $\frac{\pi}{4}\le\theta\le\frac{\pi}{2}$.
 
 
   
