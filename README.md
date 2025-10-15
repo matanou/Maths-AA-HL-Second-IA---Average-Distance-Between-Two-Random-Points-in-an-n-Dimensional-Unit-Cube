@@ -68,7 +68,14 @@ To derive the analytical expectations, the investigation uses:
   $x = r\cos\theta, \quad y = r\sin\theta, \quad dx\,dy = r\,dr\,d\theta.$
   
 - **Piecewise limits** for the unit square boundary:  
-  $r_{\max}(\theta) = \begin{cases} 1 / \cos\theta, & 0 \le \theta \le \pi/4, \\ 1 / \sin\theta, & \pi/4 \le \theta \le \pi/2. \end{cases}$
+  $$
+  r_{\max}(\theta) =
+  \begin{cases}
+  \dfrac{1}{\cos\theta}, & 0 \le \theta \le \tfrac{\pi}{4}, \\[4pt]
+  \dfrac{1}{\sin\theta}, & \tfrac{\pi}{4} \le \theta \le \tfrac{\pi}{2}.
+  \end{cases}
+  $$
+
   
 - Evaluated integrals:
   \[
