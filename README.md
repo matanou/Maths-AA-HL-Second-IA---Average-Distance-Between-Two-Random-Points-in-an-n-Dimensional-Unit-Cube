@@ -102,7 +102,19 @@ To derive the analytical expectations, the investigation uses:
 
 ---
 
-## Repository Structure
+## 🧩 Repository Structure
+
+```
+Maths-AA-HL-Second-IA/
+├── README.md                # Project overview and methodology
+├── Maths_IA_Final.tex       # Full LaTeX source code of the IA
+├── Maths_IA_Final.pdf       # Compiled final IA document
+├── mc_distance_ui.py        # Monte Carlo simulation app (Tkinter GUI)
+├── data/                    # Exported simulation results (CSV files)
+├── images/                  # Plots, figures, and verification screenshots
+├── Appendix/                # Code excerpts and derivation details
+└── requirements.txt         # Python dependencies (NumPy, Matplotlib, Tkinter, etc.)
+```
 
 
 ---
