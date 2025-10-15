@@ -23,9 +23,7 @@ $D_n = \sqrt{(a_1 - b_1)^2 + (a_2 - b_2)^2 + ... + (a_n - b_n)^2}$.
 The study begins with low-dimensional cases that can be solved analytically:
 
 - **Case $n = 1$:**
-  \[
-  \mathbb{E}[D_1] = \frac{1}{3}.
-  \]
+  $\mathbb{E}[D_1] = \frac{1}{3}$.
 
 - **Case $n = 2$:**
   Using integration in polar coordinates and probability density functions,  
