@@ -78,7 +78,7 @@ To derive the analytical expectations, the investigation uses:
 
   
 - Evaluated integrals:
-  $I_1 = \frac{1}{3}\!\left(\sqrt{2} + \ln(1+\sqrt{2})\right), \quad I_2 = \frac{1}{24}\!\left(22\sqrt{2} + 3\ln(1+\sqrt{2}) - 8\right), \quad I_3 = \frac{1}{15}\!\left(4 + 5\sqrt{2}\right).$
+  $I_1 = \frac{1}{3}\left(\sqrt{2} + \ln(1+\sqrt{2})\right), \quad I_2 = \frac{1}{24}\left(22\sqrt{2} + 3\ln(1+\sqrt{2}) - 8\right), \quad I_3 = \frac{1}{15}\left(4 + 5\sqrt{2}\right).$
   
 - Final expression:
   $\mathbb{E}[D_2] = 4(I_1 - 2I_2 + I_3)
