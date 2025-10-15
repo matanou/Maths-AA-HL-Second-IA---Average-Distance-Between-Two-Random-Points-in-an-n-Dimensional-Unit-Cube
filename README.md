@@ -18,16 +18,16 @@ where the Euclidean distance between two points
 $A = (a_1, a_2, ..., a_n)$ and $B = (b_1, b_2, ..., b_n)$ is given by
 
 
-$D_n = \sqrt{(a_1 - b_1)^2 + (a_2 - b_2)^2 + \cdots + (a_n - b_n)^2}$.
+$D_n = \sqrt{(a_1 - b_1)^2 + (a_2 - b_2)^2 + ... + (a_n - b_n)^2}$.
 
 The study begins with low-dimensional cases that can be solved analytically:
 
-- **Case \(n = 1\):**
+- **Case $n = 1$:**
   \[
   \mathbb{E}[D_1] = \frac{1}{3}.
   \]
 
-- **Case \(n = 2\):**
+- **Case $n = 2$:**
   Using integration in polar coordinates and probability density functions,  
   \[
   \mathbb{E}[D_2] = \frac{\sqrt{2} + 2 + 5\ln(1+\sqrt{2})}{15} \approx 0.5214.
@@ -41,20 +41,20 @@ For higher dimensions, a numerical Monte Carlo simulation is employed.
 ## Monte Carlo Simulation
 
 A **Python Tkinter GUI** (`mc_distance_ui.py`) was developed to estimate  
-\(\mathbb{E}[D_n]\) through large-scale random sampling.
+$\mathbb{E}[D_n]$ through large-scale random sampling.
 
 ### Features
-- Works for **any dimension \(n \ge 1\)**.
+- Works for **any dimension $n \ge 1$**.
 - Adjustable number of samples, batch size, and random seed.
 - Live **progress bar**, **ETA**, and **cancel button**.
 - Displays **histogram of sampled distances** with:
   - Red dashed line → Monte Carlo mean  
-  - Blue dotted line → Analytical mean (for \(n=1,2\))
+  - Blue dotted line → Analytical mean (for $n=1,2$)
 - Exports results to CSV and saves plots as PNG.
 - Uses **NumPy** for vectorised computation and **Matplotlib** for visualisation.
 
 ### Example Output
-For \(n = 1\) with 200,000 samples:
+For $n = 1$ with 200,000 samples:
 
 \[
 \text{Monte Carlo mean} = 0.33355 \quad\text{vs.}\quad \text{Analytical mean} = \tfrac{1}{3}.
@@ -70,7 +70,7 @@ The distribution of sampled distances is shown below:
 ## Analytical Approach Summary
 
 To derive the analytical expectations, the investigation uses:
-- **Geometric probability** in \([0,1]^2\) to find the density function  
+- **Geometric probability** in $[0,1]^2$ to find the density function  
   \[
   f(x) = 2(1-x), \quad 0 \le x \le 1.
   \]
@@ -123,8 +123,8 @@ Maths-AA-HL-Second-IA/
 ---
 
 ## Key Insights
-- The expected distance **increases with dimension** — as \(n\) grows, points become more “spread out” within the hypercube.  
-- Monte Carlo results converge to analytical values for low \(n\), validating the accuracy of the simulation algorithm.  
+- The expected distance **increases with dimension** — as $n$ grows, points become more “spread out” within the hypercube.  
+- Monte Carlo results converge to analytical values for low $n$, validating the accuracy of the simulation algorithm.  
 - The combination of **calculus, probability, and computational methods** highlights the interplay between analytic reasoning and numerical experimentation in higher-dimensional mathematics.
 
 ---
